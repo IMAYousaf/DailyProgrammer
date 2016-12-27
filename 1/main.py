@@ -14,6 +14,6 @@ def main():
     file.write(age)
     file.write(username)
 
-    print ("Your name is " + name + ", you are " + age + " years old, and your username is " + username + ".")
+    print ("Your name is {0}, you are {1} years old, and your username is {2}.".format(name, age, username))
 
 main()
